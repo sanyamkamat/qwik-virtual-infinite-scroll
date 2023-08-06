@@ -1,5 +1,3 @@
-
-
 /**
  * WHAT IS THIS FILE?
  *
@@ -20,4 +18,16 @@ html {
 body {
   padding: 0;
   line-height: inherit;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.item:hover {
+  background-color: #376df1;
+  cursor: pointer;
 }
